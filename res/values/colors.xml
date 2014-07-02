@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+  <color name="goldMed">#E3B45D</color> 
+  <color name="goldLgt">#835923</color> 
+  <color name="goldLightStart">#AB9B77</color> 
+  <color name="goldLightEnd">#9A8856</color> 
+  <color name="borderGold">#B5A67D</color>
+  <color name="dark_blue1">#123149</color>
+  <color name="dark_blue2">#153756	</color>
+  <color name="dark_blue3">#164467</color>
+  <color name="dark_blue4">#165076</color>
+  <color name="dark_blue5">#155784</color>
+  <color name="dark_blue6">#136494</color>
+  <color name="dark_blue8">#087099</color>
+  <color name="white">#FFFFFF</color>
+  <color name="black_start">#393939</color>
+  <color name="black_end">#474747</color>
+  <color name="blue_first">#204068</color>
+  <color name="blue_sec">#265082</color>
+  <color name="blue_th">#346399</color>
+  <color name="brown">#2f3133</color>
+</resources> 

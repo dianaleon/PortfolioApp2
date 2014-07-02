@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Portfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dialog_connection_error">Error de conexión, por favor compruebe su conexión a Internet.</string>
+    <string name="alert_network">Tiene deshabilitada la conexión de datos, desea habilitarla?</string>
+    <string name="connection_error">Error de conexión</string>
+    <string name="message_loading_label">Cargando...por favor espere</string>
+    <string name="dialog_general_error">Ha ocurrido un error</string>
+    <string name="databaseVersion">1</string>
+    <string name="phone">+34 6571402XX</string>
+    <string name="email">sandroluini@gmail.XX</string>
+    <string name="itemMenu1">Text Page Item </string>
+    <string name="itemMenu2">Gallery Page Item</string>
+    <string name="itemMenu3">Social Media</string>
+    <string name="itemMenu4">title_page</string>
+    <string name="tittle_page">Tittle Page</string>
+    <string name="text_example">Desciption and states of the people, where it is display long enought is the text is longer</string>
+    <string name="tittle_app">Nuñez | Suarez</string>
+    <string name="subtittle_app">Abogados</string>
+    <string name="name_page">Bufete</string>
+    <string name="desc">Image app list</string>
+    <string name="itemMenu10">Socios</string>
+    <string name="itemMenu11">Especialistas en</string>
+    <string name="itemMenu12">Servicios</string>
+    <string name="itemMenu13">Testimonios</string>
+    <string name="itemMenu14">Redes sociales</string>
+    <string name="itemMenu15">Contacto</string>
+    <string name="network1">Facebook</string>
+    <string name="network2">Twitter</string>
+    <string name="network3">Linked In</string>
+    <string name="network4">Google +</string>
+    <string name="network5">Pinterest</string>
+    <string name="network6">Mail</string>
+    <string name="tittle_app_2">JOSEPH DIRAN</string>
+    <string name="tittle_app_2_2">Diran</string>
+    <string name="subtittle_app_2">ARQUITECTO</string>
+    
+    <string name="itemMenu2_1">CURRICULUM</string>
+    <string name="itemMenu2_2">PROYECTOS</string>
+    <string name="itemMenu2_3">CLIENTES</string>
+    <string name="itemMenu2_4">PORTFOLIO</string>
+    <string name="itemMenu2_5">SERVICIOS</string>
+    <string name="itemMenu2_6">REDES SOCIALES</string>
+    <string name="itemMenu2_7">CONTACTO</string>
+</resources>
