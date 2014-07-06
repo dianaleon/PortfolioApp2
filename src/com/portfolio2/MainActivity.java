@@ -1,4 +1,4 @@
-package com.portfolio;
+package com.portfolio2;
 
 import android.app.Activity;
 import android.content.Intent;

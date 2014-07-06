@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.portfolio"
+    package="com.portfolio2"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,7 +17,7 @@
         android:allowBackup="true"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         <activity
-            android:name="com.portfolio.MainActivity"
+            android:name="com.portfolio2.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,33 +25,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.CustomThemeWindow" >
+        <activity android:name="com.portfolio.activities.CustomThemeWindow" >
         </activity>
-        <activity android:name=".activities.PhotoGridActivity" >
+        <activity android:name="com.portfolio.activities.PhotoGridActivity" >
         </activity>
-        <activity android:name=".activities.PhotoTextGridListActivity" >
+        <activity android:name="com.portfolio.activities.PhotoTextGridListActivity" >
         </activity>
-        <activity android:name=".activities.ContactActivity" >
+        <activity android:name="com.portfolio.activities.ContactActivity" >
         </activity>
-        <activity android:name=".activities.NetworkActivity" >
+        <activity android:name="com.portfolio.activities.NetworkActivity" >
         </activity>
-        <activity android:name=".activities.TextActivity" >
+        <activity android:name="com.portfolio.activities.TextActivity" >
         </activity>
-        <activity android:name=".activities.ImageActivity" >
+        <activity android:name="com.portfolio.activities.ImageActivity" >
         </activity>
-        <activity android:name=".activities.HomeActivity" >
+        <activity android:name="com.portfolio.activities.HomeActivity" >
         </activity>
-        <activity android:name=".activities.PhotoGaleryActivity" >
+        <activity android:name="com.portfolio.activities.PhotoGaleryActivity" >
         </activity>
-        <activity android:name=".activities.PhotoTextListTwoRowsActivity" >
+        <activity android:name="com.portfolio.activities.PhotoTextListTwoRowsActivity" >
         </activity>
-        <activity android:name=".activities.PhotoTittleTextActivity" >
+        <activity android:name="com.portfolio.activities.PhotoTittleTextActivity" >
         </activity>
-        <activity android:name=".activities.PhotoTextListActivity" >
+        <activity android:name="com.portfolio.activities.PhotoTextListActivity" >
         </activity>
-        <activity android:name=".activities.VideoActivity" >
+        <activity android:name="com.portfolio.activities.VideoActivity" >
         </activity>
-        <activity android:name=".activities.CatalogoActivity" >
+        <activity android:name="com.portfolio.activities.CatalogoActivity" >
         </activity>
     </application>
 
