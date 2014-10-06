@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.portfolio.activities.HomeActivity;
+import com.portfolio.activities.HomeActivity2;
 import com.portfolio.activities.TextActivity;
 import com.portfolio.listener.IPortfolioListener;
 import com.portfolio.model.PortfolioModel;
@@ -19,7 +19,9 @@ public class MainActivity extends Activity implements IPortfolioListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		Config.URL = "http://www.appsworld.eu/apps/ios/appsworld2.json";
+		//Config.URL = "http://www.appsworld.eu/apps/ios/appsworld2.json";
+		
+		Config.URL = "https://dl.dropboxusercontent.com/u/49247770/PortfolioApps/ArquitectoApp/appData.json";
 		PortfolioModel portfolioModel = PortfolioModel.getInstance(this);
 		portfolioModel.getPortfolio(this);
 	}
@@ -33,7 +35,7 @@ public class MainActivity extends Activity implements IPortfolioListener {
 		subtittleApp = menu.getSubtitle();
 		menu.getBackground();
 
-		Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+		Intent intent = new Intent(MainActivity.this, HomeActivity2.class);
 		startActivity(intent);
 		finish();
 	}

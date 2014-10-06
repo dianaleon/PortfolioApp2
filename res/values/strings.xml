@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">app2</string>
+    <string name="app_name">Joseph Diran Arquitecto</string>
     <string name="dialog_connection_error">Error de conexión, por favor compruebe su conexión a Internet.</string>
     <string name="alert_network">Tiene deshabilitada la conexión de datos, desea habilitarla?</string>
     <string name="connection_error">Error de conexión</string>
