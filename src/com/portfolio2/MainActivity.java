@@ -21,7 +21,6 @@ import com.portfolio.util.MenuBuilder2;
 import com.portfolio.util.UIUtils;
 import com.portfolio.utils.Config;
 
-
 public class MainActivity extends Activity implements IPortfolioListener {
 
 	public String tittleApp = null;
@@ -89,7 +88,7 @@ public class MainActivity extends Activity implements IPortfolioListener {
  
 			// set dialog message
 			alertDialogBuilder
-				.setMessage("¿Desea reintentar la conexión?")
+				.setMessage("Â¿Desea reintentar la conexiÃ³n?")
 				.setCancelable(false)
 				.setPositiveButton("Reintentar",new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {
