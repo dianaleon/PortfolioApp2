@@ -29,8 +29,8 @@ public class MainActivity extends Activity implements IPortfolioListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		Config.URL = "http://www.appsworld.eu/apps/android/arquitectoJoseph/appsworldArquitecto.json";	
-		//Config.URL = "https://dl.dropboxusercontent.com/u/49247770/PortfolioApps/ArquitectoApp/appData.json";
+		//Config.URL = "http://www.appsworld.eu/apps/android/arquitectoJoseph/appsworldArquitecto.json";	
+		Config.URL = "https://dl.dropboxusercontent.com/u/49247770/PortfolioApps/ArquitectoApp/appData.json";
 		PortfolioModel portfolioModel = PortfolioModel.getInstance(this);
 		portfolioModel.getPortfolio(this);
 		setContentView(R.layout.body_home);
