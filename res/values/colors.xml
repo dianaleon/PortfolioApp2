@@ -19,4 +19,5 @@
   <color name="blue_sec">#265082</color>
   <color name="blue_th">#346399</color>
   <color name="brown">#2f3133</color>
+  <color name="transparent">#00000000</color>
 </resources> 
